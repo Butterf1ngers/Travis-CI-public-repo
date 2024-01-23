@@ -4,3 +4,5 @@ jobs:
   include:
     - stage: "sleep 109"
       script: sleep 10
+vm:
+size: [gpu-medium | gpu-large | gpu-xlarge] #new values in schema for existing key
