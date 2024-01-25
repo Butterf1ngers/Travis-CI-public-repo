@@ -5,4 +5,4 @@ jobs:
     - stage: "sleep 109"
       script: sleep 10
 vm:
-size: gpu-medium
+size: gpu-xlarge
