@@ -1,6 +1,9 @@
+language: ruby
+cache:
+  bundler: true
+  directories:
+  - node_modules
 os: linux
-services:
-  - redis-server
 rvm: 2.6.3
 jobs:
   include:
